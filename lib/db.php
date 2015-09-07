@@ -25,13 +25,7 @@ $DB_CONFIGS['DM_DB_CREDS'] = array(
         'db_ssl' => true,
         'db_ssl_ca' => '/etc/pki/tls/certs/amazon-rds-2015.pem',
 );
-$DB_CONFIGS['DM_DB_CREDS'] = array(
-        'db_host' => '127.0.0.1',
-        'db_port' => '3306',
-        'db_name' => 'data_mart',
-        'db_user' => 'root',
-        'db_pass' => 'jms0882',
-);
+
 
 
 function get_db_credentials($client, $db = DEFAULT_DB_BUNDLE) {
