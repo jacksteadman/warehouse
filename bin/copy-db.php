@@ -2,7 +2,7 @@
 <?php
 
 chdir(dirname(__FILE__));
-set_include_path('../../includes' . PATH_SEPARATOR . get_include_path());
+set_include_path('../lib' . PATH_SEPARATOR . get_include_path());
 
 require_once 'db.php';
 require_once 'utils.php';
