@@ -11,8 +11,11 @@ require_once 'utils.php';
   * CONFIGURATION
   */
 
-// set to 1 for verbose output and no actual database inserts
+// set to 1 for verbose output
 define('DEBUG', 0);
+
+define('INCREMENT_SIZE', 10000);
+
 
 
 /**
