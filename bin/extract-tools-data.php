@@ -17,7 +17,6 @@ define('DEBUG', 0);
 define('INCREMENT_SIZE', 10000);
 
 
-
 /**
   * OPTIONS AND SETUP
   */
@@ -29,8 +28,12 @@ if (empty($opts['f'])) {
     exit(1);
 }
 
-$log_fp = fopen('log/import_openair.log', 'a+');
+$log_fp = fopen('log/extract-table.log', 'a+');
 if (!$log_fp) {
     echo "Couldn't open log file.\n";
     exit(1);
 }
+
+
+
+
